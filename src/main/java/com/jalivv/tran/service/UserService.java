@@ -18,6 +18,10 @@ public interface UserService extends IService<User> {
     public void addRequired(User user);
 
 
+    void test1();
+
+    void test2();
+
 }
 
 

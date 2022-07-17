@@ -36,6 +36,36 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
 
+    /**
+     * 最常见的事务回滚
+     */
+    @Transactional
+    @Override
+    public void test1() {
+        baseMapper.insert(new User("jalivv"));
+        throw new RuntimeException("error");
+    }
+
+
+    @Transactional()
+    @Override
+    public void test2() {
+        insertUser1(new User("user1"));
+        insertUser2(new User("user2"));
+//        throw new RuntimeException("error");
+    }
+
+    @Transactional
+    public void insertUser1(User user) {
+        baseMapper.insert(user);
+    }
+
+    @Transactional(propagation = Propagation.NOT_SUPPORTED)
+    public void insertUser2(User user) {
+        baseMapper.insert(user);
+        throw new RuntimeException("error");
+    }
+
 
 }
 

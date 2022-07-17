@@ -28,4 +28,16 @@ public class UserController {
         return userService.list();
     }
 
+
+    @RequestMapping("/test1")
+    public String tranTest() {
+        userService.test1();
+        return "ok";
+    }
+
+    @RequestMapping("/test2")
+    public String test2() {
+        userService.test2();
+        return "ok";
+    }
 }
