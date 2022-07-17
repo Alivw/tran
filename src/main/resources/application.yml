@@ -1,0 +1,19 @@
+server:
+  port: 88
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://service.aliww.top:3306/car?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: jalivv666
+    driverClassName: com.mysql.jdbc.Driver
+  redis:
+    port: 6379
+    #    host: service.jalivv.com
+    host: service.aliww.top
+    password: zhiruwakuangchengxumeiyoumasaidbyjalivv
+logging:
+  level:
+    com.jalivv.demo: debug
