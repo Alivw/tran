@@ -7,13 +7,13 @@ spring:
   datasource:
     url: jdbc:mysql://service.aliww.top:3306/transaction?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: jalivv666
+    password: root
     driverClassName: com.mysql.jdbc.Driver
   redis:
     port: 6379
     #    host: service.jalivv.com
     host: service.aliww.top
-    password: zhiruwakuangchengxumeiyoumasaidbyjalivv
+    password: root
 logging:
   level:
     com.jalivv.demo: debug
