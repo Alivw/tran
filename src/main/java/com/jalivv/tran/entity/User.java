@@ -19,5 +19,7 @@ public class User {
     @TableField(value = "`name`")
     private String name;
 
-
+    public User(String name) {
+        this.name = name;
+    }
 }
