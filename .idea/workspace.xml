@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="276d133d-ac75-4bcd-8948-7aa74ff7181c" name="Changes" comment="project init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/controller/User1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/controller/User2Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/entity/User1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/entity/User2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/mapper/User1Mapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/mapper/User2Mapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/service/User1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/service/User2Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/service/impl/User1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jalivv/tran/service/impl/User2ServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/User1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/User2Mapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +74,7 @@
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/idea/Spring-transaction",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "spring.configuration.checksum": "f477651f5b804867f98d271115e193a3"
   },
@@ -134,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658029885035</updated>
       <workItem from="1658029887071" duration="2280000" />
-      <workItem from="1658032239045" duration="358000" />
+      <workItem from="1658032239045" duration="575000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1658031889291</created>
@@ -143,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658031889291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project init">
+      <created>1658032608244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658032608244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project init">
+      <created>1658032733861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658032733861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
